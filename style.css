@@ -1,0 +1,276 @@
+/* AUBREY MANSON PORTFOLIO
+STYLESHEET */
+
+/* ****************************** */
+/* Page Container */
+/* ****************************** */
+
+.container {
+  background-color: lightblue;
+  margin-top: 10px;
+}
+
+/* ****************************** */
+/* Navigation Bar */
+/* ****************************** */
+
+nav {
+  background-color: lightpink;
+  height: 100px;
+  padding: 10px;
+}
+
+nav a {
+  color: green;
+  font: Ubuntu, 36px;
+  padding: 20px;
+  text-align: right;
+}
+
+nav h2 {
+  padding: 20px;
+  text-align: left;
+}
+
+/* this pseudo class will change the link tag <a> color when you hover on it */
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: yellow;
+}
+
+@media (max-width: 735px) {
+  nav {
+    display: none;
+  }
+  nav a {
+    display: none;
+  }
+}
+
+/* ****************************** */
+/* Page Hero/Jumbotron */
+/* ****************************** */
+
+.jumbotron-1 {
+  background-color: yellow;
+  height: 500px;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .jumbotron-1 h1 {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+}
+
+.jumbotron-text {
+  padding: 15px;
+  text: center;
+}
+
+/* ****************************** */
+/* Headings and Body Text */
+/* ****************************** */
+
+h1 {
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 54px;
+}
+
+h2 {
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: Ubuntu Bold, Open Sans, Sans Serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-size: 16px;
+}
+
+a {
+  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-size: 18px;
+}
+
+/* ****************************** */
+/* Buttons */
+/* ****************************** */
+
+.btn {
+  height: 50px;
+  border-radius: 30px;
+  background-color: gray;
+  margin: 0 auto;
+  display: block;
+  max-width: 200px;
+}
+
+.btn-text {
+  align-content: center;
+}
+
+.btn:hover {
+  background: #5ed0ec;
+  color: white;
+}
+
+.btn:disabled {
+  background: gray;
+  color: white;
+}
+
+/* ****************************** */
+/* Cards */
+/* ****************************** */
+
+.portfolio-container {
+  background: white;
+}
+
+.col-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card {
+  display: block;
+  width: 450px;
+  height: 450px;
+  background-color: lightsalmon;
+  border-radius: 15px hotpink;
+  flex: flex;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+  height: 50px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+
+.card-title {
+  align: center;
+}
+
+.card-subtitle {
+  align: center;
+}
+
+.card-text {
+  align: center;
+}
+
+/* display: block;
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    border-radius: 10%;
+    margin: 0.5em;
+    border: 1px solid white;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.4) */
+
+/* .doi-icons img {
+        margin-top: 40px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        justify-content: flex-start; */
+
+/* ****************************** */
+/* About Me/Contact*/
+/* ****************************** */
+
+.jumbotron-about {
+  background-color: green;
+  height: 500px;
+}
+
+.container-about {
+  background-color: white;
+  margin-top: 10px;
+  height: 400px;
+}
+
+.row-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.img-profile {
+  height: 400px;
+  padding: 30px;
+}
+
+.jumbotron-about p {
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+  .jumbotron-about {
+    background-color: white;
+    margin-top: 10px;
+  }
+  .container-about {
+    background-color: white;
+    margin-top: 10px;
+  }
+  .row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/* ****************************** */
+/* Footer */
+/* ****************************** */
+
+.footer {
+  background-color: lightpink;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* footer iconography */
+.social-icons i {
+  font-size: 48px;
+  color: black;
+  padding: 10px;
+}
+
+.social-icons i:hover {
+  color: #5ed0ec;
+}
