@@ -60,7 +60,7 @@ a:active {
 .jumbotron-h1 {
   font-size: 54px;
   padding-top: 50px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text: center;
 }
 
@@ -221,7 +221,7 @@ a {
         justify-content: flex-start; */
 
 /* ****************************** */
-/* About Me/Contact*/
+/* Contact*/
 /* ****************************** */
 
 .jumbotron-about {
@@ -293,9 +293,9 @@ a {
 
 /* footer iconography */
 .social-icons i {
-  font-size: 48px;
+  font-size: 36px;
   color: black;
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .social-icons i:hover {

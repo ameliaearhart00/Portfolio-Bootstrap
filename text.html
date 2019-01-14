@@ -43,10 +43,22 @@
     <!-- Begin Navigation Section -->
 
     <nav class="nav fixed-top justify-center">
-      <h2 class="text-left">Aubrey Manson UX Design</h2>
-      <a href="#Projects" class="text-right">Projects</a>
-      <a href="#Contact" class="text-right">About</a>
-      <a href="#Footer" class="text-right">Contact</a>
+      <div class="offset-sm-1">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/docs/4.2/assets/brand/bootstrap-solid.svg"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          Aubrey Ingmar Manson
+        </a>
+      </div>
+      <div class="offset-sm-3">
+        <a href="#About">About</a> <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </div>
     </nav>
     <!-- End Navigation Section -->
     <!-- ********************************************************* -->
@@ -54,8 +66,8 @@
     <!-- ********************************************************* -->
     <!--Begin Jumbotron Section  -->
     <!-- Jumbotron/Hero Area -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="jumbotron-1">
+    <div class="jumbotron jumbotron-fluid" id="About">
+      <div class="jumbotron-1 offset-md-1">
         <h1 class="jumbotron-h1">UX/UI Designer</h1>
         <p class="jumbotron-text">
           Your Vision + My Design = Something We Are Both Happy With : )
@@ -65,6 +77,17 @@
           Let me help you bring design-thinking and a humanistic approach to
           your projects.
         </p>
+        <div class="social-icons col-12">
+          <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/ameliaearhart00">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://instagram.com/aubrey_ingmar_manson/">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
         <p class="jumbotron-text">
           <a class="btn btn-text btn-primary btn-lg" href="#" role="button"
             >Let's Start This!</a
@@ -79,9 +102,8 @@
     <div class="container">
       <!-- ********************************************************* -->
       <!--  Begin Cards Section -->
-      <article id="Projects" class="portfolio">
+      <div id="Projects" class="portfolio">
         <h1 class="text-center">Projects</h1>
-
         <div class="portfolio-container">
           <div class="row">
             <!-- Project 1 - Reach App  -->
@@ -171,15 +193,15 @@
             </div>
           </div>
         </div>
-      </article>
+      </div>
       <!-- End Cards Section -->
       <!-- ********************************************************* -->
 
       <!-- ********************************************************* -->
       <!-- Begin About/Contact Section -->
-      <article id="Contact" class="about">
+      <div id="Contact">
         <div class="jumbotron-about jumbotron-fluid">
-          <h1 class="text-center">About Me/Contact</h1>
+          <h1 class="text-center">Contact</h1>
           <div class="container-about">
             <div class="row-container">
               <div class="col-xs-12 col-md-6 col-lg-4">
@@ -203,7 +225,7 @@
             </div>
           </div>
         </div>
-      </article>
+      </div>
 
       <!-- End About/Contact Section -->
       <!-- ********************************************************* -->
@@ -213,23 +235,9 @@
 
     <!-- ********************************************************* -->
     <!-- Begin Footer Section -->
-    <article id="Footer" class="footer social-icons">
+    <div id="Footer" class="footer social-icons">
       <h3>Copyright Aubrey Manson UX Design</h3>
-      <div>
-        <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/ameliaearhart00">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="mailto:aubreymanson1987@gmail.com">
-          <i class="fa fa-envelope"></i>
-        </a>
-        <a href="https://instagram.com/aubrey_ingmar_manson/">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-      </div>
-    </article>
+    </div>
     <!-- End Footer Section -->
     <!-- ********************************************************* -->
 
