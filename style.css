@@ -87,12 +87,13 @@ a:active {
 
 h1 {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
-  font-size: 54px;
+  font-weight: light;
+  font-size: 48px;
 }
 
 h2 {
   font-family: Ubuntu, Open Sans, Sans Serif;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h3 {
@@ -102,16 +103,18 @@ h3 {
 
 h4 {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-weight: light;
   font-size: 20px;
 }
 
 h5 {
-  font-family: Ubuntu Bold, Open Sans, Sans Serif;
+  font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 16px;
 }
 
 p {
   font-family: Helvetica Nue, Open Sans, Sans Serif;
+  font-weight: light;
   font-size: 16px;
 }
 
@@ -138,11 +141,14 @@ a {
 
 .btn {
   height: 50px;
-  border-radius: 30px;
+  border-radius: 5px;
+  border-color: gray;
   background-color: gray;
   margin: 0 auto;
   display: block;
   max-width: 200px;
+  font-style: Ubuntu;
+  font-size: 18px;
 }
 
 .btn-text {
@@ -178,7 +184,7 @@ a {
 
 .card {
   display: block;
-  width: 450px;
+  /* width: 450px; */
   height: 450px;
   background-color: lightsalmon;
   border-radius: 15px hotpink;
@@ -286,9 +292,18 @@ a {
 
 .footer {
   background-color: lightpink;
-  height: 200px;
+  height: 140px;
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.footer h5 {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.footer h4 {
+  padding-left: 10px;
 }
 
 /* footer iconography */
@@ -298,6 +313,10 @@ a {
   padding-right: 10px;
 }
 
+.social-icons-footer i {
+  font-size: 18px;
+  color: black;
+}
 .social-icons i:hover {
   color: #5ed0ec;
 }
