@@ -6,7 +6,6 @@ STYLESHEET */
 /* ****************************** */
 
 .container {
-  background-color: lightblue;
   margin-top: 10px;
 }
 
@@ -16,15 +15,15 @@ STYLESHEET */
 
 nav {
   background-color: lightpink;
-  height: 100px;
-  padding: 40px;
+  height: 90px;
+  /* padding: 40px; */
 }
 
 nav a {
   color: green;
   font: Ubuntu, 24px;
   text-align: right;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 5px;
   margin-left: 10px;
 }
@@ -38,9 +37,10 @@ a:active {
   color: yellow;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1040px) {
   nav {
     display: none;
+    padding: 5px;
   }
   nav a {
     display: none;
@@ -54,19 +54,26 @@ a:active {
 .jumbotron-1 {
   background-color: yellow;
   height: 500px;
-  margin-top: 50px;
+  margin-top: 40px;
+  padding: 30px;
 }
 
 .jumbotron-h1 {
   font-size: 54px;
   padding-top: 50px;
-  /* padding-left: 15px; */
-  text: center;
+  padding-left: 11px;
+  /* text: center; */
 }
 
 .jumbotron-text {
   padding: 15px;
   text: center;
+}
+
+.social-icons i {
+  font-size: 36px;
+  color: black;
+  padding-right: 10px;
 }
 
 @media (max-width: 768px) {
@@ -86,24 +93,27 @@ a:active {
 /* ****************************** */
 
 h1 {
-  font-family: Helvetica Nue, Open Sans, Sans Serif;
-  font-weight: light;
+  font-family: Helvetica Neue, Open Sans, Sans Serif;
+  font-weight: 200;
   font-size: 48px;
+  text-align: left;
 }
 
 h2 {
   font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 36px;
+  text-align: left;
 }
 
 h3 {
   font-family: Ubuntu, Open Sans, Sans Serif;
   font-size: 24px;
+  text-align: left;
 }
 
 h4 {
-  font-family: Helvetica Nue, Open Sans, Sans Serif;
-  font-weight: light;
+  font-family: Helvetica Neue, Open Sans, Sans Serif;
+  font-weight: thin;
   font-size: 20px;
 }
 
@@ -113,9 +123,10 @@ h5 {
 }
 
 p {
-  font-family: Helvetica Nue, Open Sans, Sans Serif;
-  font-weight: light;
+  font-family: Helvetica Neue, Open Sans, Sans Serif;
+  font-weight: thin;
   font-size: 16px;
+  text-align: left;
 }
 
 a {
@@ -138,6 +149,18 @@ a {
 /* ****************************** */
 /* Buttons */
 /* ****************************** */
+
+.btn-card {
+  height: 50px;
+  border-radius: 5px;
+  border-color: gray;
+  background-color: gray;
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 200px;
+  font-style: Ubuntu;
+  font-size: 18px;
+}
 
 .btn {
   height: 50px;
@@ -171,6 +194,11 @@ a {
 
 .portfolio-container {
   background: white;
+  margin-bottom: 100px;
+}
+
+.portfolio-summary-text {
+  padding-bottom: 50px;
 }
 
 .col-card {
@@ -184,31 +212,20 @@ a {
 
 .card {
   display: block;
-  /* width: 450px; */
   height: 450px;
-  background-color: lightsalmon;
-  border-radius: 15px hotpink;
+  border-radius: 15px;
   flex: flex;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
-.card-body {
-  height: 50px;
-  background-color: lightgoldenrodyellow;
-  text-align: center;
-}
-
 .card-title {
-  align: center;
+  height: 30px;
+  text-align: left;
 }
 
-.card-subtitle {
+/* .card-text {
   align: center;
-}
-
-.card-text {
-  align: center;
-}
+} */
 
 /* display: block;
     text-align: center;
@@ -231,14 +248,13 @@ a {
 /* ****************************** */
 
 .jumbotron-about {
-  background-color: green;
   height: 500px;
 }
 
 .container-about {
-  background-color: white;
-  margin-top: 10px;
-  height: 400px;
+  background-color: lightblue;
+  height: 440px;
+  padding: 30px;
 }
 
 .row-container {
@@ -246,7 +262,6 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -257,19 +272,23 @@ a {
 }
 
 .jumbotron-about p {
-  font-size: 24px;
+  font-size: 16px;
   padding: 10px;
-  margin-top: 30px;
+  margin: 15px;
+}
+
+.jumbotron-about h1 {
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
   .jumbotron-about {
-    background-color: white;
+    background-color: lightblue;
     margin-top: 10px;
     height: 925px;
   }
   .container-about {
-    background-color: white;
+    background-color: lightblue;
     margin-top: 10px;
   }
   .row-container {
@@ -307,15 +326,11 @@ a {
 }
 
 /* footer iconography */
-.social-icons i {
-  font-size: 36px;
-  color: black;
-  padding-right: 10px;
-}
 
 .social-icons-footer i {
   font-size: 18px;
   color: black;
+  padding: 10px;
 }
 .social-icons i:hover {
   color: #5ed0ec;

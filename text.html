@@ -42,24 +42,41 @@
     <!-- ********************************************************* -->
     <!-- Begin Navigation Section -->
 
-    <nav class="nav fixed-top justify-center">
-      <div class="offset-sm-1">
+    <nav class="nav fixed-top">
+      <div class="mx-auto">
         <a class="navbar-brand" href="#">
           <img
-            src="/docs/4.2/assets/brand/bootstrap-solid.svg"
-            width="30"
-            height="30"
+            src="images/IAM-logo-v1_web.png"
+            width="75"
+            height="75"
             class="d-inline-block align-top"
-            alt=""
+            alt="Logo Homepage Link"
           />
           Aubrey Ingmar Manson
         </a>
       </div>
-      <div class="offset-sm-3">
+      <!-- Collapse button -->
+      <!-- <button
+        class="navbar-toggler toggler-example"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+      </button> -->
+
+      <!-- Collapsible content -->
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent1"> -->
+      <div class="offset-sm-4">
         <a href="#About">About</a> <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
       </div>
+      <!-- </div> -->
     </nav>
+
     <!-- End Navigation Section -->
     <!-- ********************************************************* -->
 
@@ -67,16 +84,8 @@
     <!--Begin Jumbotron Section  -->
     <!-- Jumbotron/Hero Area -->
     <div class="jumbotron jumbotron-fluid" id="About">
-      <div class="jumbotron-1 offset-md-1">
+      <div class="jumbotron-1">
         <h1 class="jumbotron-h1">UX/UI Designer</h1>
-        <p class="jumbotron-text">
-          Your Vision + My Design = Something We Are Both Happy With : )
-        </p>
-        <hr class="my-2" />
-        <p class="jumbotron-text">
-          Let me help you bring user-centered design thinking, creativity, and a
-          humanistic approach to your projects.
-        </p>
         <div class="social-icons col-12">
           <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
             <i class="fab fa-linkedin-in"></i>
@@ -88,6 +97,15 @@
             <i class="fab fa-instagram" aria-hidden="true"></i>
           </a>
         </div>
+        <p class="jumbotron-text">
+          Your Vision + My Design = Something We Are Both Happy With : )
+        </p>
+        <hr class="my-2" />
+        <p class="jumbotron-text">
+          Let me help you bring user-centered design thinking, creativity, and a
+          humanistic approach to your projects.
+        </p>
+
         <p class="jumbotron-text">
           <a class="btn btn-text btn-primary btn-lg" href="#" role="button"
             >Let's Start This!</a
@@ -103,7 +121,11 @@
       <!-- ********************************************************* -->
       <!--  Begin Cards Section -->
       <div id="Projects" class="portfolio">
-        <h1 class="text-center">Projects</h1>
+        <h1 class="text-left">Work</h1>
+        <hr class="my-2" />
+        <p class="portfolio-summary-text">
+          Below you'll see some of my recent projects.
+        </p>
         <div class="portfolio-container">
           <div class="row">
             <!-- Project 1 - Reach App  -->
@@ -111,16 +133,16 @@
               <div class="card" style="width: 18rem;">
                 <img
                   class="card-img-top"
-                  src="https://via.placeholder.com/100x60.png"
+                  src="images/Cover-Image_ReachApp_web_bw.png"
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h3 class="card-title">Reach App</h3>
+                  <h3 class="card-title">REACH</h3>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    A social app that easily connects travelers to meet up
+                    through messaging, local meetups, and lists of activities.
                   </p>
-                  <a href="#" class="btn btn-text btn-primary btn-lg"
+                  <a href="#" class="btn-card btn-text btn-primary btn-lg"
                     >View Project</a
                   >
                 </div>
@@ -132,16 +154,16 @@
               <div class="card" style="width: 18rem;">
                 <img
                   class="card-img-top"
-                  src="https://via.placeholder.com/100x60.png"
+                  src="images/CoverImage_AirbnbTraveler_web_bw.png"
                   alt="Card image cap"
                 />
                 <div class="card-body">
                   <h3 class="card-title">Airbnb Traveler</h3>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    An app feature for Airbnb which curates a list of homes and
+                    activities based on user's traveler type.
                   </p>
-                  <a href="#" class="btn btn-text btn-primary btn-lg"
+                  <a href="#" class="btn-card btn-text btn-primary btn-lg"
                     >View Project</a
                   >
                 </div>
@@ -155,16 +177,17 @@
               <div class="card" style="width: 18rem;">
                 <img
                   class="card-img-top"
-                  src="https://via.placeholder.com/100x60.png"
+                  src="images/CoverImage_DOI_web_bw.png"
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <h3 class="card-title">The Department of the Interior</h3>
+                  <h3 class="card-title">Dept. of the Interior</h3>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Contemporary redesign to include large hero area with
+                    relevant blog-style news and prominent priority cards on
+                    homepage.
                   </p>
-                  <a href="#" class="btn btn-text btn-primary btn-lg"
+                  <a href="#" class="btn-card btn-text btn-primary btn-lg"
                     >View Project</a
                   >
                 </div>
@@ -176,16 +199,17 @@
               <div class="card" style="width: 18rem;">
                 <img
                   class="card-img-top"
-                  src="https://via.placeholder.com/100x60.png"
+                  src="images/CoverImage_StandUpforYouth_web_bw.png"
                   alt="Card image cap"
                 />
                 <div class="card-body">
                   <h3 class="card-title">StandUp for Youth</h3>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Colorful redesign to promote donations and volunteer
+                    interest to benefit this nonprofit's mission to end youth
+                    homelessness.
                   </p>
-                  <a href="#" class="btn btn-text btn-primary btn-lg"
+                  <a href="#" class="btn-card btn-text btn-primary btn-lg"
                     >View Project</a
                   >
                 </div>
@@ -201,26 +225,29 @@
       <!-- Begin About/Contact Section -->
       <div id="Contact">
         <div class="jumbotron-about jumbotron-fluid">
-          <h1 class="text-center">Contact</h1>
           <div class="container-about">
             <div class="row-container">
               <div class="col-xs-12 col-md-6 col-lg-4">
                 <img class="img-profile" src="images/aubrey_profile.jpg" />
               </div>
               <div class="col-xs-12 col-md-6 col-lg-8">
-                <p class="text-center">UX/UI Designer</p>
+                <h1 class="text-center">Contact</h1>
                 <hr class="my-2" />
                 <p class="text-center">
-                  responsive web design, design-thinking, branding, development,
-                  research
+                  I'm a freelance creative based in Los Angeles, CA, who is
+                  willing to work on projects remotely or in-person (if in LA)
+                </p>
+                <p class="text-center">
+                  responsive web design, design-thinking, prototyping, branding,
+                  development, research
                 </p>
 
                 <a
                   class="btn btn-text btn-primary btn-lg"
                   href="mailto:youplusmeequalsme@gmail.com"
                   role="button"
-                  >Email Me</a
-                >
+                  >Email Me!
+                </a>
               </div>
             </div>
           </div>
@@ -235,11 +262,10 @@
 
     <!-- ********************************************************* -->
     <!-- Begin Footer Section -->
-    <div id="Footer" class="footer social-icons">
-      <h5>Copyright 2019</h5>
-      <span>
-        <h4>Aubrey Ingmar Manson</h4>
-        <div class="social-icons-footer col-12">
+    <div id="Footer" class="footer">
+      <div>
+        <row class="social-icons-footer">
+          <h5 class="col-sm-12 col-6">Copyright 2019 Aubrey Ingmar Manson</h5>
           <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -249,8 +275,8 @@
           <a href="https://instagram.com/aubrey_ingmar_manson/">
             <i class="fab fa-instagram" aria-hidden="true"></i>
           </a>
-        </div>
-      </span>
+        </row>
+      </div>
     </div>
     <!-- End Footer Section -->
     <!-- ********************************************************* -->
