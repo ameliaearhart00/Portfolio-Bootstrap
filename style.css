@@ -22,10 +22,9 @@ nav {
 nav a {
   color: green;
   font: Ubuntu, 24px;
-  text-align: right;
-  padding: 20px;
-  margin-bottom: 5px;
-  margin-left: 10px;
+  padding: 30px;
+  margin: auto;
+  display: inline-block;
 }
 
 /* this pseudo class will change the link tag <a> color when you hover on it */
@@ -37,7 +36,7 @@ a:active {
   color: yellow;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 800px) {
   nav {
     display: none;
     padding: 5px;
@@ -62,7 +61,6 @@ a:active {
   font-size: 54px;
   padding-top: 50px;
   padding-left: 11px;
-  /* text: center; */
 }
 
 .jumbotron-text {
@@ -151,7 +149,7 @@ a {
 /* ****************************** */
 
 .btn-card {
-  height: 50px;
+  /* height: 50px; */
   border-radius: 5px;
   border-color: gray;
   background-color: gray;
@@ -163,7 +161,7 @@ a {
 }
 
 .btn {
-  height: 50px;
+  /* height: 50px; */
   border-radius: 5px;
   border-color: gray;
   background-color: gray;
@@ -179,6 +177,11 @@ a {
 }
 
 .btn:hover {
+  background: #5ed0ec;
+  color: white;
+}
+
+.btn-card:hover {
   background: #5ed0ec;
   color: white;
 }
